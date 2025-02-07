@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import TopMenu from './components/TopMenu.vue';
+import Categorie from './components/Categorie.vue'
 </script>
 
 <template>
   <div class="background">
     <TopMenu/>
+    <Categorie></Categorie>
   </div>
 </template>
 
@@ -12,9 +14,9 @@ import TopMenu from './components/TopMenu.vue';
              .,-:;//;:=,
          . :H@@@MM@M#H/.,+%;,
       ,/X+ +M@@M@MM%=,-%HMMM@X/,
-     -+@MM; $M@@MH+-,;XMMMM@MMMM@+-
-    ;@M@@M- XM@X;. -+XXXXXHHH@M@M#@/.
-  ,%MM@@MH ,@%=            .---=-=:=,.
+     -+@MM; $M@@MH+-,;-Baptiste-@+-
+    ;@M@@M- XM@X;. -+-Rousselot-M#@/.
+  ,%MM@@MH ,@%=            .--2025:=,.
   -@#@@@MX .,              -%HX$$%%%+;
  =-./@M@M$                  .;@MMMM@MM:
  X@/ -$MM/                    .+MM@@@M$
