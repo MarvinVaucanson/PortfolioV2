@@ -7,7 +7,10 @@ import Nora from '@primevue/themes/nora';
 const app = createApp(App)
 app.use(PrimeVue, {
     theme: {
-        preset: Nora
+        preset: Nora,
+        options: {
+            darkModeSelector: false || 'none',
+        }
     }
 });
 
