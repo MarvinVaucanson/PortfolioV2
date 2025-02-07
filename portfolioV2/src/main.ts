@@ -4,10 +4,11 @@ import App from './App.vue'
 import PrimeVue from 'primevue/config';
 import Nora from '@primevue/themes/nora';
 
-const app = createApp(App).mount('#app')
+const app = createApp(App)
 app.use(PrimeVue, {
     theme: {
         preset: Nora
     }
 });
 
+app.mount('#app')
