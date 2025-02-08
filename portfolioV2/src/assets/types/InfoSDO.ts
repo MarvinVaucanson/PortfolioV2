@@ -1,6 +1,6 @@
 import type { HtmlHTMLAttributes } from "vue"
 
-interface InfoSDO {
+export interface InfoSDO {
         "id":number,
         "type":string,
         "nom":string,
