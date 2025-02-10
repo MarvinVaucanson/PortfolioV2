@@ -5,11 +5,19 @@ import Categorie from './components/Categorie.vue'
 
 <template>
   <div class="background">
-    <TopMenu/>
+    <TopMenu class="topMenu"/>
     <Categorie></Categorie>
   </div>
 </template>
 
+<style>
+  .topMenu {
+    top: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+</style>
 <!-- 
              .,-:;//;:=,
          . :H@@@MM@M#H/.,+%;,
