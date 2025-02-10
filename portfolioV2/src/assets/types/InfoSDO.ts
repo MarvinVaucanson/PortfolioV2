@@ -7,6 +7,7 @@ export interface InfoSDO {
         "title":string,
         "nomMemu":string[],
         "icon":string[],
+        "color":string,
         "profile":string, //doit etre le lien vers le dossier des images pour les pp des langages, format carré, sans espace dans le nom en minuscule
         "path":{
             "href":string[],

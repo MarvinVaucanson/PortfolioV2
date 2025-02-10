@@ -4,6 +4,7 @@
         "type":"UE",
         "nom":"UE",
         "title":"UE",
+        "color":"#000000",
         "nomMemu":["Réaliser", "Optimiser", "Administrer", "Gérer", "Conduire", "Collaborer"],
         "icon":[],
         "profile":"",

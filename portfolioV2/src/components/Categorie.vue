@@ -18,9 +18,9 @@ onMounted(async () => {
 
 </script>
 <template>
-    <div>
-      <MenuCat></MenuCat>
+    <div v-for="categories in data" :key="categories.id">
+      <MenuCat :categorie="categories"></MenuCat>
       <InfoCat></InfoCat>
-      <p>{{ data[0] }}</p>
+      <p>{{ categories }}</p>
     </div>
 </template>
