@@ -28,6 +28,7 @@
         "type":"Langages",
         "nom":"Langages",
         "title":"Langages",
+        "color":"#282927",
         "nomMemu":["Python", "C", "Java", "AndroidStudio / Kotlin", "JS", "VueJS", "HTML / CSS", "PHP", "Symfony", "SQL", "PowerBI", "MongoDB", "Docker", "GIT", "Jinja2"],
         "icon":[],
         "profile":"",

@@ -21,6 +21,5 @@ onMounted(async () => {
     <div v-for="categories in data" :key="categories.id">
       <MenuCat :categorie="categories"></MenuCat>
       <InfoCat :categorie="categories"></InfoCat>
-      <p>{{ categories }}</p>
     </div>
 </template>
