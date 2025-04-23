@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
 import InfoCat from './InfoCat.vue';
 import MenuCat from './MenuCat.vue';
 import type {InfoSDO} from '../assets/types/InfoSDO.ts'
+import { ref } from 'vue';
+import { onMounted } from 'vue';
 
 const data = ref<InfoSDO[]>([]);
 
