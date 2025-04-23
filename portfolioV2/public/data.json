@@ -50,5 +50,60 @@
                 "Moteur de template HTML pour Python"
             ]
         }
+    },
+    "2":{
+        "id":2,
+        "type":"Outils",
+        "nom":"Outils",
+        "title":"Outils",
+        "nomMemu":["VSCode", "Eclipse", "Android Studio", "GitHub", "Docker", "Postman", "PowerBI"],
+        "icon":[],
+        "profile":"",
+        "text":{
+            "main":[
+                "Visual Studio Code est un éditeur de code source léger et puissant, développé par Microsoft. Il prend en charge de nombreux langages de programmation et offre des fonctionnalités avancées telles que la coloration syntaxique, l'autocomplétion, le débogage intégré et une vaste bibliothèque d'extensions.",
+                "Eclipse est un environnement de développement intégré (IDE) open-source principalement utilisé pour le développement Java. Il offre une interface conviviale, des outils de débogage avancés et une large gamme de plugins pour étendre ses fonctionnalités.",
+                "Android Studio est l'environnement de développement intégré (IDE) officiel pour le développement d'applications Android. Il offre des outils puissants pour la création, le test et le déploiement d'applications Android, ainsi que des fonctionnalités avancées pour faciliter le développement.",                
+                "GitHub est une plateforme de gestion de code source basée sur Git, qui permet aux développeurs de collaborer sur des projets open-source et privés. Elle offre des fonctionnalités telles que le suivi des problèmes, les demandes de tirage (pull requests) et l'intégration continue.",                
+                "Docker est une plateforme de virtualisation légère qui permet aux développeurs de créer, déployer et exécuter des applications dans des conteneurs logiciels. Il facilite la gestion des environnements de développement et de production, ainsi que la portabilité des applications entre différents systèmes.",                
+                "Postman est un outil populaire pour tester les API RESTful. Il permet aux développeurs d'envoyer des requêtes HTTP, d'analyser les réponses et de documenter les API, facilitant ainsi le processus de développement et de test des services web.",                
+                "Power BI est une plateforme d'analyse de données développée par Microsoft. Elle permet aux utilisateurs de visualiser et partager des insights à partir de données en créant des rapports interactifs et des tableaux de bord personnalisés."
+            ]
+        }
+    },
+    "3":{
+        "id":3,
+        "type":"Projets",
+        "nom":"Projets",
+        "title":"Projets",
+        "nomMemu":["Keb'App", "Daily Info", "Aide à la décision", "Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD"],
+        "icon":[],
+        "profile":"",
+        "text":{
+            "main":[
+                "Keb'App est une application mobile développée pour faciliter la commande de kebabs en ligne. Elle permet aux utilisateurs de parcourir les menus, de passer des commandes et de suivre l'état de leur livraison.",
+                "Daily Info est une application web qui fournit des informations quotidiennes sur divers sujets. Elle permet aux utilisateurs de consulter les dernières nouvelles, les prévisions météorologiques et d'autres informations pertinentes.",
+                "Aide à la décision est un outil d'analyse de données conçu pour aider les entreprises à prendre des décisions éclairées. Il utilise des algorithmes avancés pour analyser les données et fournir des recommandations basées sur ces analyses.",
+                "Le Guide d'installation d'un poste de travail est un document détaillant les étapes nécessaires pour configurer un poste de travail informatique. Il couvre l'installation du système d'exploitation, des logiciels et des outils nécessaires au bon fonctionnement du poste.",
+                "Le SAE PowerBI est un projet utilisant Power BI pour créer des rapports interactifs et des tableaux de bord basés sur des données spécifiques. Il permet aux utilisateurs de visualiser et d'analyser les données de manière efficace.",
+                "Le SAE Gestion BD est un projet axé sur la gestion des bases de données. Il implique la conception, la mise en œuvre et l'administration d'une base de données pour stocker et gérer efficacement les données."
+            ]
+        }
+    },
+    "4":{
+        "id":4,
+        "type":"Autres",
+        "nom":"Autres",
+        "title":"Autres",
+        "nomMemu":["Anglais", "Espagnol", "Soutien scolaire"],
+        "icon":[],
+        "profile":"",
+        "text":{
+            "main":[
+                "L'anglais est une langue internationale largement utilisée dans le monde des affaires, de la technologie et de la communication. La maîtrise de l'anglais est essentielle pour les professionnels souhaitant évoluer dans un environnement global.",
+                "L'espagnol est une langue romane parlée par des millions de personnes à travers le monde. Elle est particulièrement utile pour les professionnels travaillant dans des pays hispanophones ou avec des clients hispanophones.",
+                "Le soutien scolaire est un service d'accompagnement éducatif visant à aider les élèves à améliorer leurs performances académiques. Il peut inclure des cours particuliers, du tutorat et des ressources pédagogiques supplémentaires."
+            ]
+        }
     }
 }
