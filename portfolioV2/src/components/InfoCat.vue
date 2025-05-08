@@ -18,6 +18,9 @@
 <template>
     <div class='InfoCatMain' :style="{backgroundColor: backgroundColor}">
         <p>{{ categorie?.text.main }}</p>
+        <div sv-if="categorie.type==='Presentation'" style="margin: 0px;">
+            <p>totiioehufgh</p>
+        </div>
     </div>
 </template>
 
@@ -25,9 +28,15 @@
 .InfoCatMain{
     color: white;
     margin-top: 0px;
-    display: flex;
+    display: flex-column;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     background-color: none;
+    p{
+        margin: 0px;
+    }
+
 }
+
 </style>

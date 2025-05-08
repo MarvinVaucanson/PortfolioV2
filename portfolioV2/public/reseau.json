@@ -1,0 +1,9 @@
+{
+    "0":{
+        "id":0,
+        "link":"https://www.linkedin.com/in//",
+        "name":"LinkedIn",
+        "icon":"fa-brands fa-linkedin-in",
+        "activated":true
+    }
+}
