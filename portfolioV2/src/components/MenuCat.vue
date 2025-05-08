@@ -32,7 +32,7 @@ import { Button } from 'primevue'
     <div class="MenuCatMain">
         <div class="">
             <h3>./ {{ categorie?.title }}<span id="underscore" class="blink">_</span></h3>
-            <Button v-for="item in categorie?.nomMemu" :key="item" variant="outlined" :style="{color: color, borderColor: color}" :class="{ 'hover-button': true }">{{ item }}</Button>
+            <Button v-for="item in categorie?.nomMenu" :key="item" variant="outlined" :style="{color: color, borderColor: color}" :class="{ 'hover-button': true }">{{ item }}</Button>
         </div>
     </div>
 </template>

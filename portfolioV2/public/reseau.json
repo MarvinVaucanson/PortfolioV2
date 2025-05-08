@@ -4,6 +4,15 @@
         "link":"https://www.linkedin.com/in//",
         "name":"LinkedIn",
         "icon":"fa-brands fa-linkedin-in",
+        "color":"",
+        "activated":true
+    },
+    "1":{
+        "id":1,
+        "link":"https://www.linkedin.com/in//",
+        "name":"Git",
+        "icon":"fa-brands fa-linkedin-in",
+        "color":"",
         "activated":true
     }
 }

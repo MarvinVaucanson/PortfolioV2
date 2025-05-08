@@ -5,9 +5,8 @@
         "nom":"Presentation",
         "title":"Home",
         "color":"#8c52ff",
-        "nomMemu":[],
+        "nomMenu":[],
         "icon":[],
-        "profile":"",
         "text":{
             "main":[
                 "L'UE 1, Développer une application, cette unité d'enseignement vise à fournir aux étudiants les compétences et les connaissances nécessaires pour développer des applications logicielles à partir de zéro, en mettant l'accent sur les principes de base du développement de logiciels et en utilisant souvent des langages de programmation et des technologies populaires. Elle est une des plus importantes et est presque associés à tous mes projets se trouvant sur le site."
@@ -17,12 +16,11 @@
     "1":{
         "id":12,
         "type":"UE",
-        "nom":"UE",
+        "nom":"competences",
         "title":"Compétences",
         "color":"#8c52ff",
-        "nomMemu":["Réaliser", "Optimiser", "Administrer", "Gérer", "Conduire", "Collaborer"],
+        "nomMenu":["Réaliser", "Optimiser", "Administrer", "Gérer", "Conduire", "Collaborer"],
         "icon":[],
-        "profile":"",
         "text":{
             "main":[
                 "L'UE 1, Développer une application, cette unité d'enseignement vise à fournir aux étudiants les compétences et les connaissances nécessaires pour développer des applications logicielles à partir de zéro, en mettant l'accent sur les principes de base du développement de logiciels et en utilisant souvent des langages de programmation et des technologies populaires. Elle est une des plus importantes et est presque associés à tous mes projets se trouvant sur le site.",
@@ -44,9 +42,8 @@
         "nom":"Langages",
         "title":"Langages",
         "color":"#282927",
-        "nomMemu":["Python", "C", "Java", "AndroidStudio / Kotlin", "JS", "VueJS", "HTML / CSS", "PHP", "Symfony", "SQL", "PowerBI", "MongoDB", "Docker", "GIT", "Jinja2"],
+        "nomMenu":["Python", "C", "Java", "AndroidStudio / Kotlin", "JS", "VueJS", "HTML / CSS", "PHP", "Symfony", "SQL", "PowerBI", "MongoDB", "Docker", "GIT", "Jinja2"],
         "icon":[],
-        "profile":"",
         "text":{
             "main":[
                 "Python est un langage de programmation polyvalent, reconnu pour sa simplicité syntaxique et sa lisibilité. Il est largement utilisé dans le développement web, le machine learning, l'automatisation de tâches et bien plus encore.",
@@ -72,9 +69,8 @@
         "type":"Outils",
         "nom":"Outils",
         "title":"Outils",
-        "nomMemu":["VSCode", "Eclipse", "Android Studio", "GitHub", "Docker", "Postman", "PowerBI"],
+        "nomMenu":["VSCode", "Eclipse", "Android Studio", "GitHub", "Docker", "Postman", "PowerBI"],
         "icon":[],
-        "profile":"",
         "text":{
             "main":[
                 "Visual Studio Code est un éditeur de code source léger et puissant, développé par Microsoft. Il prend en charge de nombreux langages de programmation et offre des fonctionnalités avancées telles que la coloration syntaxique, l'autocomplétion, le débogage intégré et une vaste bibliothèque d'extensions.",
@@ -92,9 +88,8 @@
         "type":"Projets",
         "nom":"Projets",
         "title":"Projets",
-        "nomMemu":["Keb'App", "Daily Info", "Aide à la décision", "Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD"],
+        "nomMenu":["Keb'App", "Daily Info", "Aide à la décision", "Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD"],
         "icon":[],
-        "profile":"",
         "text":{
             "main":[
                 "Keb'App est une application mobile développée pour faciliter la commande de kebabs en ligne. Elle permet aux utilisateurs de parcourir les menus, de passer des commandes et de suivre l'état de leur livraison.",
@@ -111,9 +106,8 @@
         "type":"Autres",
         "nom":"Autres",
         "title":"Autres",
-        "nomMemu":["Anglais", "Espagnol", "Soutien scolaire"],
+        "nomMenu":["Anglais", "Espagnol", "Soutien scolaire"],
         "icon":[],
-        "profile":"",
         "text":{
             "main":[
                 "L'anglais est une langue internationale largement utilisée dans le monde des affaires, de la technologie et de la communication. La maîtrise de l'anglais est essentielle pour les professionnels souhaitant évoluer dans un environnement global.",
