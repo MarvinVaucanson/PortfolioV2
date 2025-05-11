@@ -1,38 +1,47 @@
 <script setup lang="ts">
-import { computed, type PropType } from 'vue';
+import { computed, ref } from 'vue'
 import type {InfoSDO} from '../assets/types/InfoSDO.ts'
-import { Button } from 'primevue'
+import {Button} from 'primevue'
 
     const props = defineProps<{
         categorie: InfoSDO
-    }>();
+    }>()
+        const emit = defineEmits<{
+        (event: 'update:selected', index: number): void
+    }>()
 
     const color = computed(() => {
-        const color = props.categorie?.color;
-        return /^#[0-9A-F]{6}$/i.test(color) ? color : '#FFFFFF';
-    });
+        const color = props.categorie?.color
+        return /^#[0-9A-F]{6}$/i.test(color) ? color : '#FFFFFF'
+    })
 
-    const lightenColor = (color: string, percent: number) => {
-        const num = parseInt(color.replace("#", ""), 16),
-            amt = Math.round(2.55 * percent),
-            R = (num >> 16) + amt,
-            G = (num >> 8 & 0x00FF) + amt,
-            B = (num & 0x0000FF) + amt;
-        return `#${(0x1000000 + (R < 255 ? R < 1 ? 0 : R : 255) * 0x10000 + (G < 255 ? G < 1 ? 0 : G : 255) * 0x100 + (B < 255 ? B < 1 ? 0 : B : 255)).toString(16).slice(1).toUpperCase()}`;
-    };
+    const selectedButton = ref(0)
 
-    // const hoverColor = computed(() => lightenColor(color.value, 20));
-        const hoverColor = "#000000";
+    const selectButton = (index: number) => {
+        console.log(index)
+        selectedButton.value = index
+        emit('update:selected',index)
+    }
 
-        document.documentElement.style.setProperty('--hover-color', hoverColor);
-
+    defineExpose({
+        selectButton
+    })
 
 </script>
 <template>
     <div class="MenuCatMain">
         <div class="">
             <h3>./ {{ categorie?.title }}<span id="underscore" class="blink">_</span></h3>
-            <Button v-for="item in categorie?.nomMenu" :key="item" variant="outlined" :style="{color: color, borderColor: color}" :class="{ 'hover-button': true }">{{ item }}</Button>
+            <Button 
+                v-for="(item, index) in categorie?.nomMenu" 
+                :key="item" 
+                :variant="selectedButton === index ? '' : 'outlined'" 
+                :style="{color: color, borderColor: color}" 
+                :class="{ 'hover-button': true }"
+                @click="selectButton(index)"
+            >
+            {{ item }}
+            </Button>
         </div>
     </div>
 </template>
@@ -47,9 +56,5 @@ import { Button } from 'primevue'
 }
 .corpus{
     margin-top: 0;
-}
-.hover-button:hover {
-    color: var(--hover-color);
-    border-color: var(--hover-color);
 }
 </style>

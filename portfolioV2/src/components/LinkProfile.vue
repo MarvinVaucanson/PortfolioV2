@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { Button } from 'primevue';
-import { onMounted, ref } from 'vue';
-import type { ReseauSDO } from '../assets/types/reseauSDO';
+import { Button } from 'primevue'
+import { onMounted, ref } from 'vue'
+import type { ReseauSDO } from '../assets/types/ReseauSDO.ts'
 
-const data = ref<ReseauSDO[]>([]);
+const data = ref<ReseauSDO[]>([])
 
 onMounted(async () => {
     try {
-        const response = await fetch('/reseau.json');
-        data.value = await response.json();
+        const response = await fetch('/reseau.json')
+        data.value = await response.json()
     } catch (error) {
-        console.error("Erreur de chargement du JSON :", error);
+        console.error("Erreur de chargement du JSON :", error)
     }
 });
 </script>

@@ -10,3 +10,11 @@ body{
     font-family:JetBrain;
     margin: 0%;
 }
+
+.competences{
+    background-image: url(./assets/images/competence.jpg);
+}
+
+.Langages{
+    background-image: url(./assets/images/langage.png);
+}

@@ -6,3 +6,9 @@
     <h2>Etudiant en BUT informatique</h2>
   </div>
 </template>
+
+<style>
+  .presentation{
+    background-color: white;
+  }
+</style>

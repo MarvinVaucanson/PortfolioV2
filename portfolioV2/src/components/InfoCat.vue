@@ -1,36 +1,37 @@
 <script setup lang="ts">
-    import { computed, ref } from 'vue';
-    import LinkProfile from './LinkProfile.vue';
+    import { computed } from 'vue'
+    import LinkProfile from './LinkProfile.vue'
     import type {InfoSDO} from '../assets/types/InfoSDO.ts'
-    import { Avatar } from 'primevue';
+    import { Avatar } from 'primevue'
 
     const props = defineProps<{
         categorie: InfoSDO
-    }>();
-
-    const selected = ref(0);
+        fromNav: number
+    }>()
 
     const base_path = "/src/assets/images/"+props.categorie.nom
     const avatar_path = computed(() => {
-        return base_path + "/" + props.categorie.nomMenu[selected.value] + ".png";
-    });
+        return base_path + "/" + props.categorie.nomMenu[props.fromNav] + ".png"
+    })
     const avatar_path_value = avatar_path.value
     console.log("Avatar path",avatar_path.value)
 
     const backgroundColor = computed(() => {
-        const color = props.categorie?.color;
-        return /^#[0-9A-F]{6}$/i.test(color) ? color : '#FFFFFF';
-    });
-
+        const color = props.categorie?.color
+        return /^#[0-9A-F]{6}$/i.test(color) ? color : '#FFFFFF'
+    })
 </script>
 
 <template>
     <div class='InfoCatMain' :style="{backgroundColor: backgroundColor}">
-        <Avatar :image="avatar_path_value" class="mr-2" size="xlarge" shape="circle" />
+        <Avatar v-if="categorie.type!=='Presentation'" :image="avatar_path_value" class="mr-2" size="xlarge" shape="circle" />
+        <Avatar v-if="categorie.type==='Presentation'" :image="base_path+'/me.png'" class="mr-2" size="xlarge" shape="circle" />
         <p>{{ categorie?.text.main }}</p>
         <div v-if="categorie.type==='Presentation'" style="margin: 0px;">
             <LinkProfile/>
         </div>
+
+        <p>val {{ props.fromNav }}</p>
     </div>
 </template>
 

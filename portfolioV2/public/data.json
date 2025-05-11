@@ -2,7 +2,7 @@
     "0":{
         "id":0,
         "type":"Presentation",
-        "nom":"Presentation",
+        "nom":"presentation",
         "title":"Home",
         "color":"#8c52ff",
         "nomMenu":[],
