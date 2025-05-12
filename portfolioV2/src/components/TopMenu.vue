@@ -27,5 +27,5 @@ const items = ref(
 </script>
 
 <template>
-    <Menubar :model="items"></Menubar>
+    <Menubar :model="items" class=""></Menubar>
 </template>
