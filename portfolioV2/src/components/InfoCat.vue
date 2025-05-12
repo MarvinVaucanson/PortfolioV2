@@ -24,14 +24,22 @@
 
 <template>
     <div class='InfoCatMain' :style="{backgroundColor: backgroundColor}">
-        <Avatar v-if="categorie.type!=='Presentation'" :image="avatar_path_value" class="mr-2" size="xlarge" shape="circle" />
-        <Avatar v-if="categorie.type==='Presentation'" :image="base_path+'/me.png'" class="mr-2" size="xlarge" shape="circle" />
-        <p>{{ categorie?.text.main }}</p>
-        <div v-if="categorie.type==='Presentation'" style="margin: 0px;">
-            <LinkProfile/>
+        <Avatar v-if="categorie.type!=='Presentation'" :image="avatar_path_value" 
+            class="avatar" 
+            size="xlarge" 
+            shape="circle" 
+        />
+        <Avatar v-if="categorie.type==='Presentation'" :image="base_path+'/me.png'" 
+            class="avatar" 
+            size="xlarge" 
+            shape="circle" 
+        />
+        <div class="text-and-data">
+            <p>{{ categorie?.text.main[props.fromNav] }}</p>
+            <div v-if="categorie.type==='Presentation'" style="margin: 0px;">
+                <LinkProfile/>
+            </div>
         </div>
-
-        <p>val {{ props.fromNav }}</p>
     </div>
 </template>
 
@@ -47,7 +55,15 @@
     p{
         margin: 0px;
     }
+}
 
+.text-and-data{
+    padding: 4%;
+}
+
+.avatar{
+    margin-left: 8%;
+    margin-top: -3%;
 }
 
 </style>

@@ -7,7 +7,7 @@ import { ref } from 'vue';
 import { onMounted } from 'vue';
 
 const data = ref<InfoSDO[]>([])
-const selectedIndex = ref(0)
+const selectedIndex = ref([0])
 
 onMounted(async () => {
   try {
@@ -20,11 +20,11 @@ onMounted(async () => {
 </script>
 <template>
     <Presentation></Presentation>
-    <div v-for="categories in data" :key="categories.id" :class="categories.nom">
+    <div v-for="(categories, index) in data" :key="categories.id" :class="categories.nom">
       <MenuCat
         :categorie="categories"
-        @update:selected="selectedIndex = $event"
+        @update:selected="selectedIndex[index] = $event"
       ></MenuCat>
-      <InfoCat :categorie="categories" :fromNav="selectedIndex"></InfoCat>
+      <InfoCat :categorie="categories" :fromNav="selectedIndex[index]"></InfoCat>
     </div>
 </template>
