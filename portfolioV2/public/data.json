@@ -70,6 +70,7 @@
         "type":"Outils",
         "nom":"Outils",
         "title":"Outils",
+        "color":"#0078d7",
         "nomMenu":["VSCode", "Android Studio", "GitHub / Gitlab", "Docker", "Postman", "PowerBI", "Fork / SourceTree","Et plus encore..."],
         "icon":[],
         "text":{
@@ -90,6 +91,7 @@
         "type":"Projets",
         "nom":"Projets",
         "title":"Projets",
+        "color":"#e3007c",
         "nomMenu":["Platine","Ramses12","Keb'App", "Daily Info", "Aide à la décision", "O.V.N.I.S","Portfolio","Tourism'App","Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD","Labyrinthe"],
         "icon":[],
         "text":{

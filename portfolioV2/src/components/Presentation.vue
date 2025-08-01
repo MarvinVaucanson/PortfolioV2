@@ -1,9 +1,9 @@
 <script setup lang="ts">
 </script>
 <template>
-  <div class="presentation-head -bg-main">
-    <h1>Baptiste Rousselot</h1>
-    <h2>Etudiant en BUT informatique</h2>
+  <div class="presentation-head -bg-main p-4">
+    <h1 class="text-5xl">Baptiste Rousselot</h1>
+    <h2 class="pt-2 text-xl"> Etudiant en BUT informatique</h2>
   </div>
 </template>
 
@@ -11,9 +11,5 @@
   .presentation-head{
     background-color: white;
     margin-left: 3%; margin-right: 3%;
-  }
-  h1, h2{
-    margin-top:0; margin-bottom: 0;
-    padding: 1%;
   }
 </style>

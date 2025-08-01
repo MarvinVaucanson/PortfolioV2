@@ -23,9 +23,8 @@ const items = ref(
     }
 ]
 )
-
 </script>
 
 <template>
-    <Menubar :model="items" class=""></Menubar>
+    <Menubar :model="items" class="sticky z-20"></Menubar>
 </template>
