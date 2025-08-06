@@ -18,7 +18,14 @@
         "title":"Compétences",
         "color":"#8c52ff",
         "nomMenu":["Réaliser", "Optimiser", "Administrer", "Gérer", "Conduire", "Collaborer"],
-        "icon":[],
+        "icon":[
+            "fa-solid fa-gears",
+            "fa-solid fa-rocket",
+            "fa-solid fa-server",
+            "fa-solid fa-database",
+            "fa-solid fa-project-diagram",
+            "fa-solid fa-users"
+        ],
         "text":{
             "main":[
                 "UE 1, Développer une application, cette unité d'enseignement vise à fournir aux étudiants les compétences et les connaissances nécessaires pour développer des applications logicielles à partir de zéro, en mettant l'accent sur les principes de base du développement de logiciels et en utilisant souvent des langages de programmation et des technologies populaires. Elle est une des plus importantes et est presque associés à tous mes projets se trouvant sur le site.",
@@ -40,8 +47,26 @@
         "nom":"Langages",
         "title":"Langages",
         "color":"#282927",
-        "nomMenu":["Python", "C", "Java", "JS / TS", "VueJS","React","Svelte","HTML / CSS / Tailwind","AndroidStudio / Kotlin", "PHP", "Symfony", "SQL", "PowerBI", "MongoDB", "Docker", "GIT", "Jinja2", "Et plus encore..."],
-        "icon":[],
+        "nomMenu":["Python", "C", "Java", "JS / TS", "VueJS","React","Svelte","HTML / CSS / Tailwind","AndroidStudio / Kotlin", "PHP / Symfony", "SQL", "PowerBI", "MongoDB", "Docker", "GIT", "Jinja2", "Et plus encore..."],
+        "icon":[
+            "fa-brands fa-python",
+            "fa-brands fa-cuttlefish",
+            "fa-brands fa-java",
+            "fa-brands fa-js-square",
+            "fa-brands fa-vuejs",
+            "fa-brands fa-react",
+            "fa-solid fa-code",
+            "fa-brands fa-html5",
+            "fa-brands fa-android",
+            "fa-brands fa-php",
+            "fa-solid fa-database",
+            "fa-solid fa-chart-bar",
+            "fa-solid fa-database",
+            "fa-brands fa-docker",
+            "fa-brands fa-git-alt",
+            "fa-solid fa-code",
+            ""
+        ],
         "text":{
             "main":[
                 "Python est un langage de programmation polyvalent, reconnu pour sa simplicité syntaxique et sa lisibilité. Il est largement utilisé dans le développement web, le machine learning, l'automatisation de tâches et bien plus encore.",
@@ -72,7 +97,16 @@
         "title":"Outils",
         "color":"#0078d7",
         "nomMenu":["VSCode", "Android Studio", "GitHub / Gitlab", "Docker", "Postman", "PowerBI", "Fork / SourceTree","Et plus encore..."],
-        "icon":[],
+        "icon":[
+            "fa-solid fa-code",
+            "fa-brands fa-android",
+            "fa-brands fa-github",
+            "fa-brands fa-docker",
+            "fa-solid fa-code",
+            "fa-solid fa-chart-bar",
+            "fa-solid fa-code-branch",
+            ""
+        ],
         "text":{
             "main":[
                 "Visual Studio Code est un éditeur de code source léger et puissant, développé par Microsoft. Il prend en charge de nombreux langages de programmation et offre des fonctionnalités avancées telles que la coloration syntaxique, l'autocomplétion, le débogage intégré et une vaste bibliothèque d'extensions.",

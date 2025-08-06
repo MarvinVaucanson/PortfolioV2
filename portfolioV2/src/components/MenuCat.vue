@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import type {InfoSDO} from '../assets/types/InfoSDO.ts'
 import {Button} from 'primevue'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
     const props = defineProps<{
         categorie: InfoSDO
@@ -30,17 +31,20 @@ import {Button} from 'primevue'
 </script>
 <template>
     <div class="MenuCatMain pb-6">
-        <div class="pl-5 pt-3">
-            <h3 class="text-2xl font-bold pb-2">./ {{ categorie?.title }}<span id="underscore" class="blink">_</span></h3>
+        <div class="pl-5 py-3">
+            <h3 class="text-2xl font-bold py-3">./ {{ categorie?.title }}<span id="underscore" class="blink">_</span></h3>
             <Button 
                 v-for="(item, index) in categorie?.nomMenu" 
                 :key="item" 
-                :variant="selectedButton === index ? '' : 'outlined'" 
-                :style="{color: color, borderColor: color}" 
-                :class="{ 'hover-button': true }"
+                :label="item"
                 @click="selectButton(index)"
+                class="custom-menu-btn m-2"
+                :class="{ 'selected-btn': selectedButton === index }"
+                :style="selectedButton === index 
+                    ? { backgroundColor: color, color: '#fff', borderColor: color } 
+                    : { color: color, borderColor: color, backgroundColor: 'transparent' }"
+                :icon="categorie.icon[index]"
             >
-            {{ item }}
             </Button>
         </div>
     </div>
