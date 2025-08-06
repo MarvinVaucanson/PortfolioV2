@@ -27,7 +27,7 @@
         "id":3,
         "link":"baptiste@rousselot.name",
         "name":"Email : baptiste@rousselot.name",
-        "icon":"fa-brands",
+        "icon":"fa-solid fa-envelope",
         "color":"00000",
         "activated":true
     }

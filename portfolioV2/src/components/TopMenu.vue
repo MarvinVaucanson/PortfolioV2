@@ -4,7 +4,7 @@ import { ref } from 'vue'
 
 const items = ref(
     [{
-        label: "K:// home"
+        label: "K:// Menu"
     },
     {
         label: "// compétences"

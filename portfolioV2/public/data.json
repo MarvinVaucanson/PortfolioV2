@@ -3,8 +3,8 @@
         "id":0,
         "type":"Presentation",
         "nom":"presentation",
-        "title":"Home",
-        "color":"#33441b",
+        "title":"Menu",
+        "color":"#064e3b",
         "nomMenu":[],
         "icon":[],
         "text":{

@@ -29,9 +29,9 @@ import {Button} from 'primevue'
 
 </script>
 <template>
-    <div class="MenuCatMain">
-        <div class="title">
-            <h3>./ {{ categorie?.title }}<span id="underscore" class="blink">_</span></h3>
+    <div class="MenuCatMain pb-6">
+        <div class="pl-5 pt-3">
+            <h3 class="text-2xl font-bold pb-2">./ {{ categorie?.title }}<span id="underscore" class="blink">_</span></h3>
             <Button 
                 v-for="(item, index) in categorie?.nomMenu" 
                 :key="item" 
@@ -56,9 +56,5 @@ import {Button} from 'primevue'
 }
 .corpus{
     margin-top: 0;
-}
-
-.title{
-    margin: 1%;
 }
 </style>
