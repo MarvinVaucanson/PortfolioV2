@@ -42,6 +42,49 @@
         }
     },
     "2":{
+        "id":4,
+        "type":"Parcours",
+        "nom":"parcours",
+        "title":"Parcours",
+        "color":"#00a3a6",
+        "nomMenu":["Sociabble","INRAE","Les pépites d'Héloïse","La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF","Art et Sciences","Tutorat"],
+        "sousMenu":{
+            "nom":["Pro","Associatif","Autre"],
+            "pro":["Sociabble","INRAE","Les pépites d'Héloïse"],
+            "associatif":["La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF","Art et Sciences"],
+            "autre":["Tutorat"]
+        },
+        "icon":[],
+        "text":{
+            "pro":[
+                "L'anglais est une langue internationale largement utilisée dans le monde des affaires, de la technologie et de la communication. La maîtrise de l'anglais est essentielle pour les professionnels souhaitant évoluer dans un environnement global.",
+                "L'espagnol est une langue romane parlée par des millions de personnes à travers le monde. Elle est particulièrement utile pour les professionnels travaillant dans des pays hispanophones ou avec des clients hispanophones.",
+                "Le soutien scolaire est un service d'accompagnement éducatif visant à aider les élèves à améliorer leurs performances académiques. Il peut inclure des cours particuliers, du tutorat et des ressources pédagogiques supplémentaires."
+            ],
+            "associatif":["La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF","Art et Sciences"],
+            "autre":["Tutorat"]
+        }
+    },
+    "3":{
+        "id":3,
+        "type":"Projets",
+        "nom":"Projets",
+        "title":"Projets",
+        "color":"#e3007c",
+        "nomMenu":["Platine","Ramses12","Keb'App", "Daily Info", "Aide à la décision", "O.V.N.I.S","Portfolio","Tourism'App","Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD","Labyrinthe"],
+        "icon":[],
+        "text":{
+            "main":[
+                "Keb'App est une application mobile développée pour faciliter la commande de kebabs en ligne. Elle permet aux utilisateurs de parcourir les menus, de passer des commandes et de suivre l'état de leur livraison.",
+                "Daily Info est une application web qui fournit des informations quotidiennes sur divers sujets. Elle permet aux utilisateurs de consulter les dernières nouvelles, les prévisions météorologiques et d'autres informations pertinentes.",
+                "Aide à la décision est un outil d'analyse de données conçu pour aider les entreprises à prendre des décisions éclairées. Il utilise des algorithmes avancés pour analyser les données et fournir des recommandations basées sur ces analyses.",
+                "Le Guide d'installation d'un poste de travail est un document détaillant les étapes nécessaires pour configurer un poste de travail informatique. Il couvre l'installation du système d'exploitation, des logiciels et des outils nécessaires au bon fonctionnement du poste.",
+                "Le SAE PowerBI est un projet utilisant Power BI pour créer des rapports interactifs et des tableaux de bord basés sur des données spécifiques. Il permet aux utilisateurs de visualiser et d'analyser les données de manière efficace.",
+                "Le SAE Gestion BD est un projet axé sur la gestion des bases de données. Il implique la conception, la mise en œuvre et l'administration d'une base de données pour stocker et gérer efficacement les données."
+            ]
+        }
+    },
+    "4":{
         "id":1,
         "type":"Langages",
         "nom":"Langages",
@@ -90,7 +133,7 @@
             ]
         }
     },
-    "3":{
+    "5":{
         "id":2,
         "type":"Outils",
         "nom":"Outils",
@@ -120,47 +163,11 @@
             ]
         }
     },
-    "4":{
-        "id":3,
-        "type":"Projets",
-        "nom":"Projets",
-        "title":"Projets",
-        "color":"#e3007c",
-        "nomMenu":["Platine","Ramses12","Keb'App", "Daily Info", "Aide à la décision", "O.V.N.I.S","Portfolio","Tourism'App","Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD","Labyrinthe"],
-        "icon":[],
-        "text":{
-            "main":[
-                "Keb'App est une application mobile développée pour faciliter la commande de kebabs en ligne. Elle permet aux utilisateurs de parcourir les menus, de passer des commandes et de suivre l'état de leur livraison.",
-                "Daily Info est une application web qui fournit des informations quotidiennes sur divers sujets. Elle permet aux utilisateurs de consulter les dernières nouvelles, les prévisions météorologiques et d'autres informations pertinentes.",
-                "Aide à la décision est un outil d'analyse de données conçu pour aider les entreprises à prendre des décisions éclairées. Il utilise des algorithmes avancés pour analyser les données et fournir des recommandations basées sur ces analyses.",
-                "Le Guide d'installation d'un poste de travail est un document détaillant les étapes nécessaires pour configurer un poste de travail informatique. Il couvre l'installation du système d'exploitation, des logiciels et des outils nécessaires au bon fonctionnement du poste.",
-                "Le SAE PowerBI est un projet utilisant Power BI pour créer des rapports interactifs et des tableaux de bord basés sur des données spécifiques. Il permet aux utilisateurs de visualiser et d'analyser les données de manière efficace.",
-                "Le SAE Gestion BD est un projet axé sur la gestion des bases de données. Il implique la conception, la mise en œuvre et l'administration d'une base de données pour stocker et gérer efficacement les données."
-            ]
-        }
-    },
-    "5":{
-        "id":4,
-        "type":"Parcours",
-        "nom":"Autres",
-        "title":"Autres",
-        "nomMenu":["INRAE","Sociabble","Les pépites d'Héloïse"],
-        "icon":[],
-        "text":{
-            "pro":[
-                "L'anglais est une langue internationale largement utilisée dans le monde des affaires, de la technologie et de la communication. La maîtrise de l'anglais est essentielle pour les professionnels souhaitant évoluer dans un environnement global.",
-                "L'espagnol est une langue romane parlée par des millions de personnes à travers le monde. Elle est particulièrement utile pour les professionnels travaillant dans des pays hispanophones ou avec des clients hispanophones.",
-                "Le soutien scolaire est un service d'accompagnement éducatif visant à aider les élèves à améliorer leurs performances académiques. Il peut inclure des cours particuliers, du tutorat et des ressources pédagogiques supplémentaires."
-            ],
-            "Associatif":["La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF"],
-            "Autre":["Tutorat"]
-        }
-    },
     "6":{
         "id":5,
         "type":"Passions",
         "nom":"Passions",
-        "title":"Home",
+        "title":"Passions",
         "color":"#33441b",
         "nomMenu":[],
         "icon":[],
