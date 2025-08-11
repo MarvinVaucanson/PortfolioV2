@@ -30,6 +30,16 @@ onMounted(async () => {
         icon="fa-solid fa-download"
         :style="{ color: '#ecfdf5', borderColor: '#ecfdf5' }"
     ></Button>
+    <Button
+        class="m-2 custom-btn"
+        variant="outlined"
+        as="a" 
+        key="certif" 
+        label="Mes diplomes et certifications" 
+        href=""
+        icon="fa-solid fa-certificate"
+        :style="{ color: '#ecfdf5', borderColor: '#ecfdf5' }"
+    ></Button>
     <h1 class="text-xl py-1">// Me contacter</h1>
     <Button
         class="m-2 custom-btn"

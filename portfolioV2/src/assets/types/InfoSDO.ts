@@ -6,6 +6,7 @@ export interface InfoSDO {
         "nom":string, //doit etre le meme que le dossier image
         "title":string,
         "nomMenu":string[],
+        "date":string[],
         "sousMenu":{
             "nom":string[]
             "pro":string[],
