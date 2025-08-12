@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(./assets/images/P1080973.jpg);
+    background-image: url(/images/P1080973.jpg);
     background-size: 100%;
     /* background-color: #88ce25; */
     font-family:JetBrain;
@@ -14,24 +14,24 @@ body{
 }
 
 .competences{
-    background-image: url(./assets/images/competence.jpg);
+    background-image: url(/images/competence.jpg);
         background-size:contain;
 
 }
 
 .Langages{
-    background-image: url(./assets/images/langage.png);
+    background-image: url(/images/langage.png);
 }
 
 .Outils{
-    background-image: url(./assets/images/langage.png);
+    background-image: url(/images/langage.png);
 }
 
 .Projets{
-    background-image: url(./assets/images/projets.png);
+    background-image: url(/images/projets.png);
 }
 
 .parcours{
-    background-image: url(./assets/images/parcours.jpg);
+    background-image: url(/images/parcours.jpg);
     background-size:contain;
 }

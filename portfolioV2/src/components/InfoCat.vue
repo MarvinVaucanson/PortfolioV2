@@ -1,9 +1,8 @@
 <script setup lang="ts">
-    import { computed, ref } from 'vue'
+    import { computed } from 'vue'
     import LinkProfile from './LinkProfile.vue'
     import type {InfoSDO} from '../assets/types/InfoSDO.ts'
     import { Avatar, Galleria } from 'primevue'
-    import douze from '../assets/images/douze.jpg'
 
     const props = withDefaults(defineProps<{
         categorie: InfoSDO
@@ -12,9 +11,14 @@
         fromNav:0
     })
 
-    const base_path = "/src/assets/images/"+props.categorie.nom
+    const base_path = `/images/${props.categorie.nom}`
+
     const avatar_path = computed(() => {
-        return base_path + "/" + props.categorie.nomMenu[props.fromNav] + ".png"
+        return `/images/${props.categorie.nom}/${props.categorie.nomMenu[props.fromNav]}.png`
+    })
+
+    const presentation_avatar_path = computed(() => {
+        return `/images/${props.categorie.nom}/me.png`
     })
 
     const backgroundColor = computed(() => {
@@ -24,10 +28,10 @@
 
     const images = [
         {
-            image: douze
+            image: '/images/douze.jpg'
         },
         {
-            image: new URL('/src/assets/images/projet.png', import.meta.url).href
+            image: '/images/projet.png'
         },
     ];
 </script>
@@ -41,7 +45,7 @@
                 shape="circle" 
             />
             <Avatar v-if="categorie.type==='Presentation'" 
-                :image="base_path+'/me.png'" 
+                :image="presentation_avatar_path" 
                 class="-mt-6 !w-32 !h-32"    
                 shape="circle"
             />
