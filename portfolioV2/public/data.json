@@ -37,7 +37,7 @@
     "2":{
         "id":1,
         "type":"Langages",
-        "nom":"Langages",
+        "nom":"langages",
         "title":"Technologies",
         "color":"#282927",
         "nomMenu":["Python", "C", "Java", "JS / TS", "VueJS","React","Svelte","HTML / CSS / Tailwind","AndroidStudio / Kotlin", "PHP / Symfony", "SQL", "PowerBI", "MongoDB", "Docker", "GIT", "Jinja2", "Et plus encore..."],
@@ -86,7 +86,7 @@
     "3":{
         "id":3,
         "type":"Projets",
-        "nom":"Projets",
+        "nom":"projets",
         "title":"Projets",
         "color":"#e3007c",
         "nomMenu":["Platine","Ramses12","Keb'App", "Daily Info", "Aide à la décision", "O.V.N.I.S","Portfolio","Tourism'App","Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD","Labyrinthe"],
@@ -105,7 +105,7 @@
     "5":{
         "id":2,
         "type":"Outils",
-        "nom":"Outils",
+        "nom":"outils",
         "title":"Outils",
         "color":"#0078d7",
         "nomMenu":["VSCode", "Android Studio", "GitHub / Gitlab", "Docker", "Postman", "PowerBI", "Fork / SourceTree","Et plus encore..."],
