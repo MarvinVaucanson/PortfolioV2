@@ -18,7 +18,7 @@ onMounted(async () => {
 <template>
     <h1 class="text-xl py-1">// Qui suis je ?</h1>
     <p class="p-2">
-        Etudiant en informatique orienté développement, j'ai un parcours associatif varié, qui m'a permis d’acquérir de nombreuses compétences. J'aime la science, la musique et la montagne.
+        Étudiant en informatique orienté développement, j'ai un parcours associatif varié, qui m'a permis d’acquérir de nombreuses compétences. J'aime la science, la musique et la montagne.
     </p>
     <Button
         class="m-2 custom-btn"

@@ -17,8 +17,14 @@
         "nom":"parcours",
         "title":"Parcours",
         "color":"#00a3a6",
-        "nomMenu":["Sociabble","INRAE","Les pépites d'Héloïse","La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF","Art et Sciences","Tutorat"],
+        "nomMenu":["sociabble","INRAE","Les pépites d'Héloïse","La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF","Art et Sciences","Tutorat"],
+        "images":[3],
         "date":["2024 - 2025","Avril 2024 - Juin 2024","2022","Depuis 2023","2022 - 2023", "Depuis 2020", "Depuis 2023","2021 - 2023 Art et Sciences","2024"],
+        "badge":["Alternance","Stage","Job d'été"],
+        "link":{
+            "href":["https://polldiff.riverly.inrae.fr/recherche/gestion-integree-du-bassin-versant/jeu-serieux-causerie"],
+            "label":["Jeu Serieux Causerie"]
+        },
         "sousMenu":{
             "nom":["Pro","Associatif","Autre"],
             "pro":["Sociabble","INRAE","Les pépites d'Héloïse"],
@@ -28,10 +34,14 @@
         "icon":[],
         "text":{
             "main":[
-                "L'anglais est une langue internationale largement utilisée dans le monde des affaires, de la technologie et de la communication. La maîtrise de l'anglais est essentielle pour les professionnels souhaitant évoluer dans un environnement global.",
-                "L'espagnol est une langue romane parlée par des millions de personnes à travers le monde. Elle est particulièrement utile pour les professionnels travaillant dans des pays hispanophones ou avec des clients hispanophones.",
+                "Alternance d'une année chez Sociabble. Entreprise spécialisé dans l'Employee Advocacy. Mes missions étaient du portage d'ancienne fonctionnalité en React et du dévellopement de nouvelles fonctionnalités. Le tout dans un environnement Azure.",
+                "Stage de validation de la 2eme année de BUT. J'ai travaillé avec les équipes d'INRAE Pollutions Agricoles Diffuses (PollDiff), sur GeoMelba un logiciel de modélisation de bassin versant. (Plus d'infos sur leurs sites web. En attente du rendu du rapport de stage pour poster les images).",
                 "Le soutien scolaire est un service d'accompagnement éducatif visant à aider les élèves à améliorer leurs performances académiques. Il peut inclure des cours particuliers, du tutorat et des ressources pédagogiques supplémentaires."
             ]
+        },
+        "tech":{
+            "0":["React","PrimeReact","TS","Tailwind","Azure Devops"],
+            "1":["Python","Jinja","QGis"]
         }
     },
     "2":{
@@ -57,7 +67,7 @@
             "fa-solid fa-database",
             "fa-brands fa-docker",
             "fa-brands fa-git-alt",
-            "fa-solid fa-code",
+            "fa-solid fa-torii-gate",
             ""
         ],
         "text":{

@@ -6,6 +6,7 @@ export interface InfoSDO {
         "nom":string, //doit etre le meme que le dossier image
         "title":string,
         "nomMenu":string[],
+        "badge":string[],
         "date":string[],
         "sousMenu":{
             "nom":string[]
@@ -15,21 +16,19 @@ export interface InfoSDO {
         }
         "icon":string[],
         "color":string,
-        "path":{
+        "link":{
             "href":string[],
-            "link":string[]
+            "label":string[]
         },
-        "images":{ 
-            "name_avatar":string[],
-            "galery":boolean
-        }
+        "images":number[]
         "text":{
             "main":string[],
             "bonus":{
                 "titleB":string[]|string,
                 "textB":string[]
             }
-        }
+        },
+        "tech":""
         "other":HtmlHTMLAttributes
 }
 
