@@ -103,30 +103,46 @@
         "nom":"projets",
         "title":"Projets",
         "color":"#e3007c",
-        "nomMenu":["Platine","Ramses12","O.V.N.I.S","Daily Info", "Aide à la décision", "Portfolio","Tourism'App","Keb'App", "SAE PowerBI", "SAE Gestion BD","Labyrinthe"],
+        "nomMenu":["Platine","Ramses12","O.V.N.I.S","Daily Info", "Aide à la décision", "Portfolio","Tourism'App","Labyrinthe","Le Piet ?"],
+        "nomMenuF":["platine","ramses12","ovnis","daily", "graphe", "portfolio","tourism","labyrinthe","poster"],
         "icon":[],
-        "images":[3,3],
+        "images":[3,3,3,6,4],
         "link":{
-            "href":["","","https://github.com/MarvinVaucanson/O.V.N.I.S"],
-            "label":["","","GitHub"]
+            "href":["",
+            "",
+            "https://github.com/MarvinVaucanson/O.V.N.I.S",
+            "",
+            "https://github.com/MarvinVaucanson/sae_graphe/tree/main/sae-125-s2-logiciel-d-aide-a-la-decisions",
+            "https://github.com/MarvinVaucanson/PortfolioV2",
+            "https://github.com/MarvinVaucanson/DevMobile",
+            "https://github.com/MarvinVaucanson/Labyrinthe",
+            ""
+            ],
+            "label":["","","GitHub","","GitHub","GitHub du portfolio","GitHub","GitHub",""]
         },
         "text":{
             "main":[
                 "PLATINE est un ERP destiné à faciliter la gestion du département informatique. Il centralise tous les services administratifs (EDT, notes,stages, absences, etc.) afin de fluidifier les flux d'informations. Ce projet fut réalisé par une équipe de 19 personnes. Situations professionnelles: Analyse et recueil des besoins, Analyse et choix des technologies, Développement fullstack avancé, Gestion d'équipe et de projet",
                 "Ramses 12 est un projet similaire à PLATINE, les projets ont étés échangés entre deux semestres pour travailler sur des projets ayant déjà eu de nombreux dev.",
                 "O.V.N.I.S pour Oscilloscope VisualisatioN Images from Sound. C'est un projet personnel basé sur la visualisation d'image à partir du son.",
-                "Keb'App est une application mobile développée pour faciliter la commande de kebabs en ligne. Elle permet aux utilisateurs de parcourir les menus, de passer des commandes et de suivre l'état de leur livraison.",
-                "Daily Info est une application web qui fournit des informations quotidiennes sur divers sujets. Elle permet aux utilisateurs de consulter les dernières nouvelles, les prévisions météorologiques et d'autres informations pertinentes.",
-                "Aide à la décision est un outil d'analyse de données conçu pour aider les entreprises à prendre des décisions éclairées. Il utilise des algorithmes avancés pour analyser les données et fournir des recommandations basées sur ces analyses.",
-                "Le Guide d'installation d'un poste de travail est un document détaillant les étapes nécessaires pour configurer un poste de travail informatique. Il couvre l'installation du système d'exploitation, des logiciels et des outils nécessaires au bon fonctionnement du poste.",
-                "Le SAE PowerBI est un projet utilisant Power BI pour créer des rapports interactifs et des tableaux de bord basés sur des données spécifiques. Il permet aux utilisateurs de visualiser et d'analyser les données de manière efficace.",
-                "Le SAE Gestion BD est un projet axé sur la gestion des bases de données. Il implique la conception, la mise en œuvre et l'administration d'une base de données pour stocker et gérer efficacement les données."
+                "Daily Info est un site web PHP qui permet aux joueurs de recevoirent chaque jour un nouveau défi en lien avec l'IUT et l'informatique. Il existe de nombreuses de type de mission ! SAE su S3 d'IUT",
+                "SAE réalisé en java lors du deuxième semestre d'IUT. On devait réaliser un logiciel pour aider à la décision d'un chemin à travers un graphe complexe. Le projet à été réalisé from scratch sans librairies de gestion de graphe. Nous avons implémenté l'algorithme de parcurs DijKstra",
+                "Magnifique site web sur lequel vous vous trouvez actuellement ! Crée en Vue.js il retrace l'entièreté de mon parcours professionnel et associatif. Il sagit d'une V2, l'ancienne version n'est pour le moment plus accessible",
+                "Tourisme App ! Application mobile utilisant les données de data.grandlyon pour vous conseiller des sorties en ville dans Lyon",
+                "Labyrinthe, projet de fin de lycée en cours de NSI. Battez vos amis dans ce jeu python pour parcourir le plus de labyrinthe dans un temps limité. Bonne chance !",
+                "Connaissez vous le PIET ? Un langage de programmation basé sur une grille de couleur ! Ce poster scientifique résume tout !"
             ]
         },
         "tech":{
             "0":["React","TS","Tailwind","Express","Docker","Git","Trello"],
             "1":["Angular","TS","Tailwind","Express","Docker","Git","Trello"],
-            "2":["Python","Oscilloscope","Physique"]
+            "2":["Python","Oscilloscope","Physique"],
+            "3":["html/css","PHP","python discord"],
+            "4":["Java","Graphes"],
+            "5":["VueJs","TS","Tailwind","Flowbite","Vite"],
+            "6":["Kotlin","Android Studio","Java","XML"],
+            "7":["Python"],
+            "8":["Piet","Canvas"]
         }
     },
     "5":{
