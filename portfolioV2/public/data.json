@@ -22,8 +22,8 @@
         "date":["2024 - 2025","Avril 2024 - Juin 2024","2022","Depuis 2023","2022 - 2023", "Depuis 2020", "Depuis 2023","2021 - 2023 Art et Sciences","2024"],
         "badge":["Alternance","Stage","Job d'été"],
         "link":{
-            "href":["https://polldiff.riverly.inrae.fr/recherche/gestion-integree-du-bassin-versant/jeu-serieux-causerie"],
-            "label":["Jeu Serieux Causerie"]
+            "href":["","https://polldiff.riverly.inrae.fr/recherche/gestion-integree-du-bassin-versant/jeu-serieux-causerie"],
+            "label":["","Jeu Serieux Causerie"]
         },
         "sousMenu":{
             "nom":["Pro","Associatif","Autre"],
@@ -50,7 +50,7 @@
         "nom":"langages",
         "title":"Technologies",
         "color":"#282927",
-        "nomMenu":["Python", "C", "Java", "JS / TS", "VueJS","React","Svelte","HTML / CSS / Tailwind","AndroidStudio / Kotlin", "PHP / Symfony", "SQL", "PowerBI", "MongoDB", "Docker", "GIT", "Jinja2", "Et plus encore..."],
+        "nomMenu":["Python", "C", "Java", "JS / TS", "VueJS","React","Svelte","Angular","Node","HTML / CSS / Tailwind","AndroidStudio / Kotlin", "PHP / Symfony", "SQL","Mongo","Graphe (Gremlin, neo4j)","PowerBI", "MongoDB", "Docker", "GIT", "Jinja2", "Et plus encore..."],
         "icon":[
             "fa-brands fa-python",
             "fa-brands fa-cuttlefish",
@@ -59,10 +59,14 @@
             "fa-brands fa-vuejs",
             "fa-brands fa-react",
             "fa-solid fa-code",
+            "fa-solid fa-angular",
+            "fa-solid fa-node",
             "fa-brands fa-html5",
             "fa-brands fa-android",
             "fa-brands fa-php",
             "fa-solid fa-database",
+            "fa-brand fa-mongodb",
+            "fa-solid fa-graph",
             "fa-solid fa-chart-bar",
             "fa-solid fa-database",
             "fa-brands fa-docker",
@@ -99,10 +103,18 @@
         "nom":"projets",
         "title":"Projets",
         "color":"#e3007c",
-        "nomMenu":["Platine","Ramses12","Keb'App", "Daily Info", "Aide à la décision", "O.V.N.I.S","Portfolio","Tourism'App","Guide d'installation d'un poste de travail", "SAE PowerBI", "SAE Gestion BD","Labyrinthe"],
+        "nomMenu":["Platine","Ramses12","O.V.N.I.S","Daily Info", "Aide à la décision", "Portfolio","Tourism'App","Keb'App", "SAE PowerBI", "SAE Gestion BD","Labyrinthe"],
         "icon":[],
+        "images":[3,3],
+        "link":{
+            "href":["","","https://github.com/MarvinVaucanson/O.V.N.I.S"],
+            "label":["","","GitHub"]
+        },
         "text":{
             "main":[
+                "PLATINE est un ERP destiné à faciliter la gestion du département informatique. Il centralise tous les services administratifs (EDT, notes,stages, absences, etc.) afin de fluidifier les flux d'informations. Ce projet fut réalisé par une équipe de 19 personnes. Situations professionnelles: Analyse et recueil des besoins, Analyse et choix des technologies, Développement fullstack avancé, Gestion d'équipe et de projet",
+                "Ramses 12 est un projet similaire à PLATINE, les projets ont étés échangés entre deux semestres pour travailler sur des projets ayant déjà eu de nombreux dev.",
+                "O.V.N.I.S pour Oscilloscope VisualisatioN Images from Sound. C'est un projet personnel basé sur la visualisation d'image à partir du son.",
                 "Keb'App est une application mobile développée pour faciliter la commande de kebabs en ligne. Elle permet aux utilisateurs de parcourir les menus, de passer des commandes et de suivre l'état de leur livraison.",
                 "Daily Info est une application web qui fournit des informations quotidiennes sur divers sujets. Elle permet aux utilisateurs de consulter les dernières nouvelles, les prévisions météorologiques et d'autres informations pertinentes.",
                 "Aide à la décision est un outil d'analyse de données conçu pour aider les entreprises à prendre des décisions éclairées. Il utilise des algorithmes avancés pour analyser les données et fournir des recommandations basées sur ces analyses.",
@@ -110,6 +122,11 @@
                 "Le SAE PowerBI est un projet utilisant Power BI pour créer des rapports interactifs et des tableaux de bord basés sur des données spécifiques. Il permet aux utilisateurs de visualiser et d'analyser les données de manière efficace.",
                 "Le SAE Gestion BD est un projet axé sur la gestion des bases de données. Il implique la conception, la mise en œuvre et l'administration d'une base de données pour stocker et gérer efficacement les données."
             ]
+        },
+        "tech":{
+            "0":["React","TS","Tailwind","Express","Docker","Git","Trello"],
+            "1":["Angular","TS","Tailwind","Express","Docker","Git","Trello"],
+            "2":["Python","Oscilloscope","Physique"]
         }
     },
     "5":{

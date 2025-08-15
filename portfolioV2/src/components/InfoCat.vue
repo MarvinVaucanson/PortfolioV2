@@ -60,10 +60,11 @@
                 <LinkProfile/>
             </div>
             <p v-if="categorie.type ==='Langages'">{{ categorie?.text.main[props.fromNav] }}</p>
-            <div v-if="categorie.type === 'Parcours'">
-                <div class="flex">
+            <div v-if="categorie.type === 'Parcours' || categorie.type === 'Projets'">
+                <div class="flex pr-5">
                     <div>
-                        <h3 class="font-bold p-2">// Date : {{ categorie.date[props.fromNav] }} 
+                        <h3 v-if="categorie.date" class="font-bold p-2">
+                            // Date : {{ categorie.date[props.fromNav] }} 
                             <Badge
                                 v-if="categorie.badge[props.fromNav]" 
                                 :value="categorie.badge[props.fromNav]" 
@@ -84,13 +85,14 @@
                             class="m-1 border-1 bg-transparent"
                             :style="{backgroundColor:'transparent'}"
                         />
-                        <h3 v-if="categorie.link.href[props.fromNav]" class="font-bold p-2">
-                            // Liens
-                        </h3>
-                        <a :href="categorie.link.href[props.fromNav]">
-
-                        <Button :label="categorie.link.label[props.fromNav]" variant="link" style="color:white"></Button>
-                        </a>
+                        <div v-if="categorie.link.href[props.fromNav]">
+                            <h3 class="font-bold p-2">
+                                // Liens
+                            </h3>
+                            <a :href="categorie.link.href[props.fromNav]">
+                            <i class="fa-solid fa-link"></i><Button :label="categorie.link.label[props.fromNav]" variant="link" style="color:white"></Button>
+                            </a>
+                        </div>
                     </div>
                     <div v-if="categorie.images[props.fromNav] > 0">
                         <h3 class="font-bold p-2">
