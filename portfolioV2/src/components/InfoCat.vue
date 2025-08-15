@@ -14,7 +14,7 @@
     const base_path = `/images/${props.categorie.nom}`
 
     const avatar_path = computed(() => {
-        return `/images/${props.categorie.nom}/${props.categorie.nomMenu[props.fromNav]}.png`
+        return `/images/${props.categorie.nom}/${props.categorie.nomMenuF[props.fromNav]}.png`
     })
 
     const presentation_avatar_path = computed(() => {
@@ -31,7 +31,7 @@
             ? props.categorie.images[props.fromNav]
             : props.categorie.images
         if (!count || isNaN(count)) return []
-        const folder = props.categorie.nomMenu?.[props.fromNav] ?? ''
+        const folder = props.categorie.nomMenuF?.[props.fromNav] ?? ''
         return Array.from({ length: count }, (_, i) => ({
             itemImageSrc: `/images/${props.categorie.nom}/${folder}/${i}.png`,
             alt: `${folder} ${i}`
@@ -59,20 +59,21 @@
             <div v-if="categorie.type==='Presentation'" style="margin: 0px;">
                 <LinkProfile/>
             </div>
-            <p v-if="categorie.type ==='Langages'">{{ categorie?.text.main[props.fromNav] }}</p>
+            <p v-if="categorie.type ==='Langages' || categorie.type=== 'Outils'">{{ categorie?.text.main[props.fromNav] }}</p>
             <div v-if="categorie.type === 'Parcours' || categorie.type === 'Projets'">
                 <div class="flex pr-5">
                     <div>
-                        <h3 v-if="categorie.date" class="font-bold p-2">
-                            // Date : {{ categorie.date[props.fromNav] }} 
-
-                        </h3>
-                                                    <Badge
+                        <div class="flex items-center">
+                            <h3 v-if="categorie.date" class="font-bold p-2 pr-4">
+                                // Date : {{ categorie.date[props.fromNav] }} 
+                            </h3>
+                            <Badge
                                 v-if="categorie.badge[props.fromNav]" 
                                 :value="categorie.badge[props.fromNav]" 
                                 size="xlarge" 
                                 :style="{color : backgroundColor, backgroundColor:'#ffffff'}" 
                             />
+                        </div>
                         <p class="p-2 pr-4 text-justify">
                             {{ categorie.text.main[props.fromNav] }}
                         </p>

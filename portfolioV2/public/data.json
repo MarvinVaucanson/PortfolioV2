@@ -17,7 +17,8 @@
         "nom":"parcours",
         "title":"Parcours",
         "color":"#00a3a6",
-        "nomMenu":["sociabble","INRAE","Les pépites d'Héloïse","La Galoche (café)","BDE Informatique IUT", "Endorah","Art et Sciences","Tutorat","CVL"],
+        "nomMenu":["Sociabble","INRAE","Les pépites d'Héloïse","La Galoche (café)","BDE Informatique IUT", "Endorah","Art et Sciences","Tutorat","CVL"],
+        "nomMenuF":["sociabble","inrae","pepite","galoche","bde", "endorah","art","tuto","cvl"],
         "images":[3,3,0,3,3,3,3],
         "date":["2024 - 2025","Avril 2024 - Juin 2024","2022","Depuis 2023","2022 - 2023", "Depuis 2020","2021 - 2023","2024","2022"],
         "badge":["Alternance","Stage","Job d'été"],
@@ -57,6 +58,7 @@
         "title":"Technologies",
         "color":"#282927",
         "nomMenu":["Python", "C", "Java", "JS / TS", "VueJS","React","Svelte","Angular","Node","HTML / CSS / Tailwind","AndroidStudio / Kotlin", "PHP / Symfony", "SQL","Mongo","Graphe (Gremlin, neo4j)","PowerBI", "MongoDB", "Docker", "GIT", "Jinja2", "Et plus encore..."],
+        "nomMenuF":["Python", "C", "Java", "JS / TS", "VueJS","React","Svelte","Angular","Node","HTML / CSS / Tailwind","AndroidStudio / Kotlin", "PHP / Symfony", "SQL","Mongo","Graphe (Gremlin, neo4j)","PowerBI", "MongoDB", "Docker", "GIT", "Jinja2", "Et plus encore..."],
         "icon":[
             "fa-brands fa-python",
             "fa-brands fa-cuttlefish",
@@ -65,14 +67,14 @@
             "fa-brands fa-vuejs",
             "fa-brands fa-react",
             "fa-solid fa-code",
-            "fa-solid fa-angular",
-            "fa-solid fa-node",
+            "fa-brands fa-angular",
+            "fa-brands fa-node-js",
             "fa-brands fa-html5",
             "fa-brands fa-android",
             "fa-brands fa-php",
             "fa-solid fa-database",
-            "fa-brand fa-mongodb",
-            "fa-solid fa-graph",
+            "fa-solid fa-leaf",
+            "fa-solid fa-circle-nodes",
             "fa-solid fa-chart-bar",
             "fa-solid fa-database",
             "fa-brands fa-docker",
@@ -177,8 +179,8 @@
                 "Docker est une plateforme de virtualisation légère qui permet aux développeurs de créer, déployer et exécuter des applications dans des conteneurs logiciels. Il facilite la gestion des environnements de développement et de production, ainsi que la portabilité des applications entre différents systèmes.",                
                 "Postman est un outil populaire pour tester les API RESTful. Il permet aux développeurs d'envoyer des requêtes HTTP, d'analyser les réponses et de documenter les API, facilitant ainsi le processus de développement et de test des services web.",                
                 "Power BI est une plateforme d'analyse de données développée par Microsoft. Elle permet aux utilisateurs de visualiser et partager des insights à partir de données en créant des rapports interactifs et des tableaux de bord personnalisés.",
-                "",
-                ""
+                "Interface graphique pour gérer les dépôts Git. Fork est un client Git multiplateforme pratique pour les travaux de l'IUT.",
+                "QGis, Canva, Shotcut, Figma, Trello, Teams, Notion, Suite Google, Microsoft Office"
             ]
         }
     },
