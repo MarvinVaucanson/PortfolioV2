@@ -65,13 +65,14 @@
                     <div>
                         <h3 v-if="categorie.date" class="font-bold p-2">
                             // Date : {{ categorie.date[props.fromNav] }} 
-                            <Badge
+
+                        </h3>
+                                                    <Badge
                                 v-if="categorie.badge[props.fromNav]" 
                                 :value="categorie.badge[props.fromNav]" 
                                 size="xlarge" 
                                 :style="{color : backgroundColor, backgroundColor:'#ffffff'}" 
                             />
-                        </h3>
                         <p class="p-2 pr-4 text-justify">
                             {{ categorie.text.main[props.fromNav] }}
                         </p>

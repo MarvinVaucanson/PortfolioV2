@@ -17,26 +17,32 @@
         "nom":"parcours",
         "title":"Parcours",
         "color":"#00a3a6",
-        "nomMenu":["sociabble","INRAE","Les pépites d'Héloïse","La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF","Art et Sciences","Tutorat"],
-        "images":[3],
-        "date":["2024 - 2025","Avril 2024 - Juin 2024","2022","Depuis 2023","2022 - 2023", "Depuis 2020", "Depuis 2023","2021 - 2023 Art et Sciences","2024"],
+        "nomMenu":["sociabble","INRAE","Les pépites d'Héloïse","La Galoche (café)","BDE Informatique IUT", "Endorah","Art et Sciences","Tutorat","CVL"],
+        "images":[3,3,0,3,3,3,3],
+        "date":["2024 - 2025","Avril 2024 - Juin 2024","2022","Depuis 2023","2022 - 2023", "Depuis 2020","2021 - 2023","2024","2022"],
         "badge":["Alternance","Stage","Job d'été"],
         "link":{
-            "href":["","https://polldiff.riverly.inrae.fr/recherche/gestion-integree-du-bassin-versant/jeu-serieux-causerie"],
-            "label":["","Jeu Serieux Causerie"]
+            "href":["","https://polldiff.riverly.inrae.fr/recherche/gestion-integree-du-bassin-versant/jeu-serieux-causerie","","https://lagaloche.fr","https://instagram.com/bde_info/","https://endorah.net/"],
+            "label":["","Jeu Serieux Causerie","","Association La Galoche - Site web","Instagram du bde","Endorah"]
         },
         "sousMenu":{
             "nom":["Pro","Associatif","Autre"],
             "pro":["Sociabble","INRAE","Les pépites d'Héloïse"],
-            "associatif":["La Galoche (café)","BDE Informatique IUT", "Endorah", "UNEF","Art et Sciences"],
-            "autre":["Tutorat"]
+            "associatif":["La Galoche (café)","BDE Informatique IUT", "Endorah","Art et Sciences"],
+            "autre":["Tutorat","Conseil de Vie Lycéenne"]
         },
         "icon":[],
         "text":{
             "main":[
                 "Alternance d'une année chez Sociabble. Entreprise spécialisé dans l'Employee Advocacy. Mes missions étaient du portage d'ancienne fonctionnalité en React et du dévellopement de nouvelles fonctionnalités. Le tout dans un environnement Azure.",
                 "Stage de validation de la 2eme année de BUT. J'ai travaillé avec les équipes d'INRAE Pollutions Agricoles Diffuses (PollDiff), sur GeoMelba un logiciel de modélisation de bassin versant. (Plus d'infos sur leurs sites web. En attente du rendu du rapport de stage pour poster les images).",
-                "Le soutien scolaire est un service d'accompagnement éducatif visant à aider les élèves à améliorer leurs performances académiques. Il peut inclure des cours particuliers, du tutorat et des ressources pédagogiques supplémentaires."
+                "Gestion du compte Instagram et de la boutique en ligne de cette micro entreprise de brocante.",
+                "Le collectif La Galoche est né de l’envie d’ouvrir un café associatif, lieu convivial et chaleureux sur Sathonay–Camp. Il a été créé par des habitant.es de Sathonay-Camp désirant un lieu de rencontre animé, ouvert à toutes et tous pour faire émerger des initiatives locales : concerts, conférences, théâtre, débats et échanges de savoirs. Le projet a grandi pour devenir aujourd’hui un lieu-ressource convivial, décontracté et citoyen réunissant à la fois un espace de travail partagé, une épicerie, un café associatif avec une programmation culturelle et festive. Après avoir suivi une formation, il m'arrive de tenir le bar, j'organise aussi des soirées jeux de société.",
+                "Mandat de 2023 à 2024 au Bureau des élèves du département informatique de l'IUT Lyon 1. Responsable du pôle culture j'ai dirigé la pblication de la radio culture, un post mensuel sur instagram de culture. J'ai aussi organisé de nombreux évènements.",
+                "Endorah est une équipe de créateurs passionnés par le jeu Minecraft dont je fais partie depuis 4 ans déjà. Nous regroupons, constructeurs, décorateurs, développeurs Java et web, graphistes, trailer makers et bien d’autres talents pour mener à bien nos projets ! De la conception à la réalisation, nous créons nos projets de A à Z en accordant une attention particulière à chaque demande. La qualité finale et le succès de nos œuvres sont des valeurs essentielles pour nous. Ensemble, nous pouvons donner vie à votre projet ! Plus d'image sur notre site web !",
+                "L'art et la science ! Deux choses passionnantes. Dépassez les limites de la réalité en observant l'invisible ! Cela ne suffit pas ? Avez vous déjà rêvez de voir le son d'une manière inédite ? Non ? C'est pas grave parce qu'on l'a fait ! Exposition à l'ENS pour la Fête de la Science.",
+                "Transmettre mes connaissances, aider et accompagner des étudiants de premières années d'IUT.",
+                "Elu pour être le représentant des lycéens de la cité scolaire Saint Exupéry. (Lyon 4)"
             ]
         },
         "tech":{
@@ -105,6 +111,7 @@
         "color":"#e3007c",
         "nomMenu":["Platine","Ramses12","O.V.N.I.S","Daily Info", "Aide à la décision", "Portfolio","Tourism'App","Labyrinthe","Le Piet ?"],
         "nomMenuF":["platine","ramses12","ovnis","daily", "graphe", "portfolio","tourism","labyrinthe","poster"],
+        "badge":["IUT","IUT","Perso","IUT", "IUT", "Perso","IUT","Lycée","IUT"],
         "icon":[],
         "images":[3,3,3,6,4],
         "link":{
