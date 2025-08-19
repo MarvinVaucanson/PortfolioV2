@@ -14,7 +14,11 @@
     const base_path = `/images/${props.categorie.nom}`
 
     const avatar_path = computed(() => {
-        return `/images/${props.categorie.nom}/${props.categorie.nomMenuF[props.fromNav]}.png`
+        if(props.categorie.nomMenuF){
+            return `/images/${props.categorie.nom}/${props.categorie.nomMenuF[props.fromNav]}.png`
+        } else {
+            return `/images/${props.categorie.nom}/${props.categorie.nomMenu[props.fromNav]}.png`
+        }
     })
 
     const presentation_avatar_path = computed(() => {
@@ -31,7 +35,7 @@
             ? props.categorie.images[props.fromNav]
             : props.categorie.images
         if (!count || isNaN(count)) return []
-        const folder = props.categorie.nomMenuF?.[props.fromNav] ?? ''
+        const folder = props.categorie.nomMenuF?.[props.fromNav] ?? props.categorie.nomMenu?.[props.fromNav] ?? ''
         return Array.from({ length: count }, (_, i) => ({
             itemImageSrc: `/images/${props.categorie.nom}/${folder}/${i}.png`,
             alt: `${folder} ${i}`
