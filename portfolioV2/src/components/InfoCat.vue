@@ -113,7 +113,7 @@
                         <Galleria 
                             :value="images"
                             :circular="true" 
-                            containerStyle="max-width: 640px;"
+                            containerStyle="max-width: 200px;"
                             :showItemNavigators="true" 
                             :showThumbnails="false"
                         >

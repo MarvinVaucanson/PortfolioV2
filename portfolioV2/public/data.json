@@ -113,14 +113,14 @@
     "3":{
         "id":3,
         "type":"Projets",
-        "nom":"projets",
+        "nom":"projet",
         "title":"Projets",
         "color":"#e3007c",
         "nomMenu":["Platine","Ramses12","O.V.N.I.S","Daily Info", "Aide à la décision", "Portfolio","Tourism'App","Labyrinthe","Le Piet ?"],
         "nomMenuF":["platine","ramses12","ovnis","daily", "graphe", "portfolio","tourism","labyrinthe","poster"],
         "badge":["IUT","IUT","Perso","IUT", "IUT", "Perso","IUT","Lycée","IUT"],
         "icon":[],
-        "images":[3,3,3,6,4],
+        "images":[1,0,2,6,4,0],
         "link":{
             "href":["",
             "",
@@ -130,15 +130,15 @@
             "https://github.com/MarvinVaucanson/PortfolioV2",
             "https://github.com/MarvinVaucanson/DevMobile",
             "https://github.com/MarvinVaucanson/Labyrinthe",
-            ""
+            "https://baptiste.rousselot.name/Portfolio/public/CV/poster.pdf"
             ],
-            "label":["","","GitHub","","GitHub","GitHub du portfolio","GitHub","GitHub",""]
+            "label":["","","GitHub","","GitHub","GitHub du portfolio","GitHub","GitHub","Télécharger le poster"]
         },
         "text":{
             "main":[
                 "PLATINE est un ERP destiné à faciliter la gestion du département informatique. Il centralise tous les services administratifs (EDT, notes,stages, absences, etc.) afin de fluidifier les flux d'informations. Ce projet fut réalisé par une équipe de 19 personnes. Situations professionnelles: Analyse et recueil des besoins, Analyse et choix des technologies, Développement fullstack avancé, Gestion d'équipe et de projet",
-                "Ramses 12 est un projet similaire à PLATINE, les projets ont étés échangés entre deux semestres pour travailler sur des projets ayant déjà eu de nombreux dev.",
-                "O.V.N.I.S pour Oscilloscope VisualisatioN Images from Sound. C'est un projet personnel basé sur la visualisation d'image à partir du son.",
+                "Ramses 12 est un projet similaire à PLATINE, les projets ont étés échangés entre deux semestres pour travailler sur des projets ayant déjà eu de nombreux developpement antécédent.",
+                "O.V.N.I.S pour Oscilloscope VisualisatioN Images from Sound. C'est un projet personnel basé sur la visualisation d'image à partir d'un son envoyé sur un oscilloscope. Plus d'info sur le github.",
                 "Daily Info est un site web PHP qui permet aux joueurs de recevoirent chaque jour un nouveau défi en lien avec l'IUT et l'informatique. Il existe de nombreuses de type de mission ! SAE su S3 d'IUT",
                 "SAE réalisé en java lors du deuxième semestre d'IUT. On devait réaliser un logiciel pour aider à la décision d'un chemin à travers un graphe complexe. Le projet à été réalisé from scratch sans librairies de gestion de graphe. Nous avons implémenté l'algorithme de parcurs DijKstra",
                 "Magnifique site web sur lequel vous vous trouvez actuellement ! Crée en Vue.js il retrace l'entièreté de mon parcours professionnel et associatif. Il sagit d'une V2, l'ancienne version n'est pour le moment plus accessible",
@@ -165,14 +165,14 @@
         "nom":"outils",
         "title":"Outils",
         "color":"#0078d7",
-        "nomMenu":["VSCode", "Android Studio", "GitHub / Gitlab", "Docker", "Postman", "PowerBI", "Fork / SourceTree","Et plus encore..."],
+        "nomMenu":["VSCode", "Android Studio", "GitHub / Gitlab", "Docker Desktop", "Postman", "Fork / SourceTree","Et plus encore..."],
+        "nomMenuF":["vs", "android", "github", "docker", "postman", "fork","qgis"],
         "icon":[
             "fa-solid fa-code",
             "fa-brands fa-android",
             "fa-brands fa-github",
             "fa-brands fa-docker",
             "fa-solid fa-code",
-            "fa-solid fa-chart-bar",
             "fa-solid fa-code-branch",
             ""
         ],
@@ -182,9 +182,8 @@
                 "Android Studio est l'environnement de développement intégré (IDE) officiel pour le développement d'applications Android. Il offre des outils puissants pour la création, le test et le déploiement d'applications Android, ainsi que des fonctionnalités avancées pour faciliter le développement.",                
                 "GitHub est une plateforme de gestion de code source basée sur Git, qui permet aux développeurs de collaborer sur des projets open-source et privés. Elle offre des fonctionnalités telles que le suivi des problèmes, les demandes de tirage (pull requests) et l'intégration continue.",                
                 "Docker est une plateforme de virtualisation légère qui permet aux développeurs de créer, déployer et exécuter des applications dans des conteneurs logiciels. Il facilite la gestion des environnements de développement et de production, ainsi que la portabilité des applications entre différents systèmes.",                
-                "Postman est un outil populaire pour tester les API RESTful. Il permet aux développeurs d'envoyer des requêtes HTTP, d'analyser les réponses et de documenter les API, facilitant ainsi le processus de développement et de test des services web.",                
-                "Power BI est une plateforme d'analyse de données développée par Microsoft. Elle permet aux utilisateurs de visualiser et partager des insights à partir de données en créant des rapports interactifs et des tableaux de bord personnalisés.",
-                "Interface graphique pour gérer les dépôts Git. Fork est un client Git multiplateforme pratique pour les travaux de l'IUT.",
+                "Postman est un outil populaire pour tester les API RESTful. Il permet aux développeurs d'envoyer des requêtes HTTP, d'analyser les réponses et de documenter les API, facilitant ainsi le processus de développement et de test des services web.",
+                "Fork comme SourceTree sont des clients Git graphiques qui simplifient la gestion des dépôts Git. Ils offrent une interface utilisateur conviviale pour effectuer des opérations Git courantes telles que les commits, les branches et les fusions, facilitant ainsi la collaboration entre les développeurs.",
                 "QGis, Canva, Shotcut, Figma, Trello, Teams, Notion, Suite Google, Microsoft Office"
             ]
         }
