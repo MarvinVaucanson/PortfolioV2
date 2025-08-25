@@ -15,8 +15,8 @@ body{
 
 .competences{
     background-image: url(/images/competence.jpg);
-        background-size:contain;
-
+    /* background-size:contain; */
+    background-size: 15%;
 }
 
 .langages{
@@ -33,5 +33,9 @@ body{
 
 .parcours{
     background-image: url(/images/parcours.jpg);
-    background-size:contain;
+    background-size: 40%;
+}
+
+html {
+  scroll-behavior: smooth;
 }

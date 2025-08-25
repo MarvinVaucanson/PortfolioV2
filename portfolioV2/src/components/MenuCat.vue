@@ -69,7 +69,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
                 <h2 class="text-xl font-bold mb-2">{{ group.title }}</h2>
                 <div class="flex flex-wrap gap-2">
                     <Button
-                    v-for="(item, idx) in group.items"
+                    v-for="(item) in group.items"
                     :key="item.globalIndex"
                     @click="selectButton(item.globalIndex)"
                     class="custom-menu-btn"

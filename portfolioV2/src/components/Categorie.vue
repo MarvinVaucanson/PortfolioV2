@@ -20,7 +20,7 @@ onMounted(async () => {
 </script>
 <template>
     <Presentation></Presentation>
-    <div v-for="(categories, index) in data" :key="categories.id" :class="categories.nom">
+    <div v-for="(categories, index) in data" :key="categories.id" :class="categories.nom" :id="`cat-${categories.nom}`">
       <MenuCat
         :categorie="categories"
         @update:selected="selectedIndex[index] = $event"

@@ -47,7 +47,6 @@
             alt: `${folder} ${i}`
         }))
     })
-
 </script>
 
 <template>
@@ -116,6 +115,8 @@
                             containerStyle="max-width: 200px;"
                             :showItemNavigators="true" 
                             :showThumbnails="false"
+                            @click="switchOverlay"
+                            :fullScreen="overlayImage"
                         >
                             <template #item="slotProps">
                                 <img :src="slotProps.item.itemImageSrc" :alt="slotProps.item.alt" style="width: 100%; display: block;" />

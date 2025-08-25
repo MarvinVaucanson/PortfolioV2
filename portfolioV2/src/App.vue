@@ -4,7 +4,7 @@ import Categorie from './components/Categorie.vue'
 </script>
 
 <template>
-  <div class="background">
+  <div class="background" id="cat-menu">
     <TopMenu class="topMenu"/>
     <Categorie></Categorie>
   </div>

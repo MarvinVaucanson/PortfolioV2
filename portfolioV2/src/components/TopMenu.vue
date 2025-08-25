@@ -4,27 +4,39 @@ import { ref } from 'vue'
 
 const items = ref(
     [{
-        label: "K:// Menu"
+        label: "K:// Menu", id: "cat-menu"
     },
     {
-        label: "// compétences"
+        label: "// parcours", id: "cat-parcours"
     },
     {
-        label: "// langages"
+        label: "// technologies", id: "cat-langages"
     },
     {
-        label: "// projet"
+        label: "// projets", id: "cat-projet"
     },
     {
-        label: "// expériences"
+        label: "// outils", id: "cat-outils"
     },
     {
-        label: "// passions"
+        label: "// compétences", id: "cat-competences"
     }
 ]
 )
 </script>
 
 <template>
-    <Menubar :model="items" class="sticky z-20 text-xl"></Menubar>
+    <Menubar 
+        :model="items" 
+        class="sticky z-20 text-xl"
+    >
+        <template #item="{ item }">
+            <a
+                :href="`#${item.id}`"
+                class="px-4 py-2 block"
+            >
+                {{ item.label }}
+            </a>
+        </template>
+    </Menubar>
 </template>
