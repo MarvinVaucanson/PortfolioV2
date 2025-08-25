@@ -1,8 +1,10 @@
 <script setup lang="ts">
-    import { computed } from 'vue'
+    import { computed, ref } from 'vue'
     import LinkProfile from './LinkProfile.vue'
     import type {InfoSDO} from '../assets/types/InfoSDO.ts'
     import { Avatar, Galleria, Badge, Tag, Button } from 'primevue'
+
+    const baseUrl = import.meta.env.BASE_URL
 
     const props = withDefaults(defineProps<{
         categorie: InfoSDO
@@ -11,18 +13,22 @@
         fromNav:0
     })
 
-    const base_path = `/images/${props.categorie.nom}`
+    const overlayImage = ref<boolean>(false)
+
+    function switchOverlay(){
+        overlayImage.value = !overlayImage.value
+    }
 
     const avatar_path = computed(() => {
         if(props.categorie.nomMenuF){
-            return `/images/${props.categorie.nom}/${props.categorie.nomMenuF[props.fromNav]}.png`
+            return `${baseUrl}images/${props.categorie.nom}/${props.categorie.nomMenuF[props.fromNav]}.png`
         } else {
-            return `/images/${props.categorie.nom}/${props.categorie.nomMenu[props.fromNav]}.png`
+            return `${baseUrl}images/${props.categorie.nom}/${props.categorie.nomMenu[props.fromNav]}.png`
         }
     })
 
     const presentation_avatar_path = computed(() => {
-        return `/images/${props.categorie.nom}/me.png`
+        return `${baseUrl}images/${props.categorie.nom}/me.png`
     })
 
     const backgroundColor = computed(() => {
@@ -37,7 +43,7 @@
         if (!count || isNaN(count)) return []
         const folder = props.categorie.nomMenuF?.[props.fromNav] ?? props.categorie.nomMenu?.[props.fromNav] ?? ''
         return Array.from({ length: count }, (_, i) => ({
-            itemImageSrc: `/images/${props.categorie.nom}/${folder}/${i}.png`,
+            itemImageSrc: `${baseUrl}images/${props.categorie.nom}/${folder}/${i}.png`,
             alt: `${folder} ${i}`
         }))
     })
@@ -107,7 +113,7 @@
                         <Galleria 
                             :value="images"
                             :circular="true" 
-                            containerStyle="max-width: 640px"
+                            containerStyle="max-width: 640px;"
                             :showItemNavigators="true" 
                             :showThumbnails="false"
                         >

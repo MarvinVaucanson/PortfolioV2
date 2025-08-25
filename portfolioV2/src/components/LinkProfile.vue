@@ -26,7 +26,8 @@ onMounted(async () => {
         as="a" 
         key="toto" 
         label="Mon CV" 
-        href=""
+        href="/portfolioV2/public/CV/CV_BaptisteR_2025.pdf"
+        download="CV_BaptisteR_2025.pdf"
         icon="fa-solid fa-download"
         :style="{ color: '#ecfdf5', borderColor: '#ecfdf5' }"
     ></Button>
