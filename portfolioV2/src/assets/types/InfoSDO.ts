@@ -29,6 +29,13 @@ export interface InfoSDO {
                 "textB":string[]
             }
         },
+        "textml":{
+            "main":HtmlHTMLAttributes[],
+            "bonus":{
+                "titleB":string[]|string,
+                "textB":string[]
+            }
+        },
         "tech":""
         "other":HtmlHTMLAttributes
 }

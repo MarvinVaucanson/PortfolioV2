@@ -39,3 +39,7 @@ body{
 html {
   scroll-behavior: smooth;
 }
+
+.justify-text {
+    text-align: justify;
+}

@@ -11,7 +11,7 @@ const selectedIndex = ref([0])
 
 onMounted(async () => {
   try {
-    const response = await fetch('/data.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data.json`)
     data.value = await response.json()
   } catch (error) {
     console.error("Erreur de chargement du JSON :", error)

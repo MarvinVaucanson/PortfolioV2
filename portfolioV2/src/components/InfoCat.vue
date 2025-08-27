@@ -64,7 +64,7 @@
             />
         </div>
         <div class="text-and-data">
-            <p v-if="categorie.type ==='UE'">{{ categorie?.text.main[props.fromNav] }}</p>
+            <p class="p-2 pr-4 justify-text" v-if="categorie.type ==='UE'" v-html="categorie?.textml.main[props.fromNav]"></p>
             <div v-if="categorie.type==='Presentation'" style="margin: 0px;">
                 <LinkProfile/>
             </div>
@@ -83,7 +83,7 @@
                                 :style="{color : backgroundColor, backgroundColor:'#ffffff'}" 
                             />
                         </div>
-                        <p class="p-2 pr-4 text-justify">
+                        <p class="p-2 pr-4 justify-text">
                             {{ categorie.text.main[props.fromNav] }}
                         </p>
                         <h3 v-if="categorie.tech[props.fromNav]" class="font-bold p-2">

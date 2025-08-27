@@ -8,7 +8,7 @@ const data = ref<ReseauSDO[]>([])
 
 onMounted(async () => {
     try {
-        const response = await fetch('/reseau.json')
+        const response = await fetch(`${import.meta.env.BASE_URL}reseau.json`)
         data.value = await response.json()
     } catch (error) {
         console.error("Erreur de chargement du JSON :", error)
