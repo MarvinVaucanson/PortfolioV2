@@ -43,3 +43,17 @@ html {
 .justify-text {
     text-align: justify;
 }
+
+/* Thème clair */
+:root {
+  --bg-color: #fff;
+  --text-color: #222;
+  --primary-color: #007bff;
+}
+
+/* Thème sombre */
+[data-theme="dark"] {
+  --bg-color: #222;
+  --text-color: #fff;
+  --primary-color: #1e90ff;
+}

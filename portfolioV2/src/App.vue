@@ -1,23 +1,12 @@
 <script setup lang="ts">
-import TopMenu from './components/TopMenu.vue';
-import Categorie from './components/Categorie.vue'
+
 </script>
 
 <template>
   <div class="background" id="cat-menu">
-    <TopMenu class="topMenu"/>
-    <Categorie></Categorie>
+    <p> Hello World </p>
   </div>
 </template>
-
-<style>
-  .topMenu {
-    top: 0;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 3%;
-  }
-</style>
 <!-- 
              .,-:;//;:=,
          . :H@@@MM@M#H/.,+%;,
